@@ -7,6 +7,23 @@
     <title>Florian learning Django</title>
 </head>
 <body>
-    <p>Test page</p>
+    <h1>Tutorial GitHub Pages Deploy & Domain</h1>
+    <h4> link https://youtu.be/SKXkC4SqtRk </h4>
+    <p>Commands:</p>
+    <ul>
+        <li>npm init -y</li>
+        <li>npm i gh-pages</li>
+        <li>Create a repositiory on GitHub</li>
+        <p>…or push an existing repository from the command line<br>
+            git remote add origin https://github.com/FlorianUlmeanu/LearnDjango.git<br>
+            git branch -M main<br>
+            git push -u origin main<br>
+        <li>change the file package.json in section scripts to:</li>
+        <li> "scripts": {
+            "deploy": "gh-pages -d dist"
+          }</li>
+        <li>npm run deploy</li>
+    
+    </ul>
 </body>
 </html>
